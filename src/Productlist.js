@@ -18,24 +18,22 @@ function Productlist() {
                         <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                             <thead>
                                 <tr>
-                                    <th>Name</th>
-                                    <th>Position</th>
-                                    <th>Office</th>
-                                    <th>Age</th>
-                                    <th>Start date</th>
-                                    <th>Salary</th>
+                                    <th>National</th>
+                                    <th>Product Name</th>
+                                    <th>Price</th>
+                                    <th>Millage</th>
+                                    <th>Product CC</th>
                                     <th>Edit</th>
                                 </tr>
                             </thead>
 
                             <tbody>
                                 <tr>
-                                    <td>Gandhiraj</td>
-                                    <td>Developer</td>
-                                    <td>freshwork</td>
-                                    <td>21</td>
-                                    <td>2011/04/25</td>
-                                    <td>$320,800</td>
+                                    <td>Indian</td>
+                                    <td>Bike</td>
+                                    <td>Rs.150000</td>
+                                    <td>30</td>
+                                    <td>200cc</td>
                                     <td>
                                         <button className='btn btn-primary'>Edit</button>
                                         <button className='btn btn-danger'>Delete</button>

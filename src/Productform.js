@@ -9,13 +9,8 @@ function Productform() {
             <div className='container'>
                 <div className='row'>
                     <div className='col-lg-6' >
-                        <lable>Product Name</lable>
-                        <select class="form-select" aria-label="Default select example" className='form-control'>
-                            <option selected>--Select product--</option>
-                            <option value="1">Bike</option>
-                            <option value="2">Car</option>
-                            <option value="3">Cycle</option>
-                        </select>
+                        <lable>National</lable>
+                       <input type="text"  className='form-control' ></input>
 
                     </div>
                     <div className='col-lg-6' >
@@ -35,12 +30,8 @@ function Productform() {
                     </div>
                     <div className='col-lg-3' >
                         <lable>Product CC</lable>
-                        <select class="form-select" aria-label="Default select example" className='form-control'>
-                            <option selected>--Select product--</option>
-                            <option value="1">200cc</option>
-                            <option value="2">2000cc</option>
-                            <option value="3">No</option>
-                        </select>
+                        <input type="text" className='form-control' ></input>
+                        
                     </div>
                     <div className='col-lg-4' >
                         
